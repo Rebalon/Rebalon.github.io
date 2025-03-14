@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Page 1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-language" content="en">
+
+    <meta property="og:title" content="HomePage" />
+    <meta property="og:description" content="Page 1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Page 1" />
+
+    <title>HomePage</title>
+    <link rel="icon" type="image/png" href="./images/Imag1.jpg" />
+
+    <style>
+        div {
+            width: 1200px;
+            height: 110px;
+        }
+
+        button {
+            width: 200px;
+            height: 100px;
+        }
+
+        div img {
+            position: sticky;
+            left: 150px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: url('./images/download.jpg') center/cover no-repeat;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        div button {
+            font-size: 30px;
+        }
+
+        a {
+            color: #0000ff;
+            text-decoration: solid;
+        }
+
+        a:hover {
+            color: #ff0000;
+        }
+
+        body {
+            transform: scale(0.75);
+            transform-origin: top left;
+            width: 133.33%;
+        }
+    </style>
+</head>
+
+<body background="./images/download.jpg">
+    <header style="height: 300px;">
+        <nav>
+            <div style="margin-left: 550px;">
+                <button>
+                    <a href="./Exercise3_Page1.html" style="color: #b700ff;">Homepage</a>
+                </button>
+                <button>
+                    <a href="./Exercise3_Page2.html">My Portfolio</a>
+                </button>
+                <button>
+                    <a href="./Exercise3_Page3.html">Project</a>
+                </button>
+                <button>
+                    <a href="./Exercise3_Page4.html">Contact</a>
+                </button>
+                <button>
+                    <a href="./Exercise3_Page5.html">Interest</a>
+                </button>
+            </div>
+        </nav>
+        <div style="margin-left: 650px; font-size: 200px; font-weight: bold; color: blue">
+            <p style="margin: 0px;">
+                Homepage
+            </p>
+        </div>
+    </header>
+    <div
+        style=" display: flex; height:500px; width:2170px; margin-top: 120px;box-shadow: -1px 1px 40px 20px rgba(0, 0, 0, 0.2); ">
+        <div style="height: 500px; width: 500px; background-color:rgb(245, 176, 65); border:3px solid black;">
+            <img src="./images/Imag1.jpg">
+            <h1 style="size: 100px; margin-left: 90px">Nguyen Van Lac Thien</h1>
+        </div>
+        <div style="height: 500px; width: 1800px; border:3px solid black">
+            <blockquote style="background: url('./images/images3.jpg') no-repeat center center; 
+        background-size: cover; 
+        margin-left: 50px; 
+        color: black; width: 1600px">
+                <p style="padding: 30px; font-size: 100px; color:blue; width: fit-content; font-family: 'Pacifico', cursive;
+                font-weight: bold; text-transform: uppercase; text-shadow: 3px 3px 0px #ff0000,
+                6px 6px 0px #0000ff,
+                9px 9px 0px #00ff00;">
+                    Welcome to my homepage
+                </p>
+            </blockquote>
+            <p style="margin-left: 50px; margin-right: 40px; font-size: 30px; border: 3px solid; width:fit-content">
+                My name is Nguyen Van Lac Thien. I am currently an university student of HCMIU starting from
+                August-2022. I am specific in web developing. For more information you can read in my
+                <a href="./Exercise3_Page2.html">portfolio page. </a>
+            </p>
+            <hr>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
